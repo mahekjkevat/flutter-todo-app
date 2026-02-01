@@ -38,5 +38,5 @@ git status
 git add .
 git commit -m "Initial Flutter Todo App"
 git branch -M main
-git remote add origin https://github.com/MAHEKKEVAT/flutter-todo-app.git
+git remote add origin https://github.com/mahekjkevat/flutter-todo-app.git
 git push -u origin main
