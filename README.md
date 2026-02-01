@@ -1,7 +1,8 @@
 # Flutter Todo App 📝
 
-A modern Todo application built using **Flutter** and **REST API**, featuring CRUD operations,
-search, splash screen, and clean UI.
+A modern and clean **Todo application** built using **Flutter** and **REST API**.
+This project demonstrates CRUD operations, search functionality, splash screen,
+and a polished Material UI.
 
 ---
 
@@ -12,7 +13,7 @@ search, splash screen, and clean UI.
 - ➕ Add Todo
 - ✏️ Edit Todo
 - 🗑 Delete Todo
-- 🔍 Search Todos (non-scrollable search bar)
+- 🔍 Search Todos (fixed search bar)
 - 🔄 Pull to Refresh
 - 🎨 Clean UI with Google Fonts
 - 📱 Responsive Material Design
@@ -23,20 +24,106 @@ search, splash screen, and clean UI.
 
 - **Flutter**
 - **Dart**
-- **REST API** (dummyjson.com)
+- **REST API** – dummyjson.com
 - **Google Fonts**
+
+---
+
+## 📸 App Screenshots
+
+### 🔹 UI Preview (3-Column Layout)
+
+| Home Screen            | Search Todo            | Add Todo               |
+|------------------------|------------------------|------------------------|
+| ![](screenshots/1.jpg) | ![](screenshots/2.jpg) | ![](screenshots/3.jpg) |
+
+| Edit Todo              | Delete Todo            | Splash Screen          |
+|------------------------|------------------------|------------------------|
+| ![](screenshots/4.jpg) | ![](screenshots/5.jpg) | ![](screenshots/6.jpg) |
 
 ---
 
 ## 📂 Project Structure
 
-Now run **exactly these commands**:
+lib/
+├── main.dart
+├── splash_screen.dart
+├── todo_list.dart
+└── add_page.dart
+
+
+
+---
+
+## ⚠️ Important Note
+
+This app uses a **mock REST API** (`https://dummyjson.com`).
+
+- Data is **not stored permanently**
+- Added / edited items reset after refresh
+- Used for learning & demonstration purposes
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK
+- Android Studio / VS Code
+- Emulator or physical device
+
+### Run the App
 
 ```bash
-git init
+flutter pub get
+flutter run
+
+
+---
+
+## ⚠️ Important Note
+
+This app uses a **mock REST API** (`https://dummyjson.com`).
+
+- Data is **not stored permanently**
+- Added / edited items reset after refresh
+- Used for learning & demonstration purposes
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK
+- Android Studio / VS Code
+- Emulator or physical device
+
+### Run the App
+
+```bash
+flutter pub get
+flutter run
+
+
+👨‍💻 Author
+
+Mahek K.
+Flutter Developer
+
+⭐️ Support
+
+If you like this project, please consider giving it a ⭐ on GitHub!
+
+
+---
+
+## ✅ 3️⃣ Add Screenshots to Git & Push
+
+From your project root (`F:\content`), run:
+
+```powershell
 git status
-git add .
-git commit -m "Initial Flutter Todo App"
-git branch -M main
-git remote add origin https://github.com/mahekjkevat/flutter-todo-app.git
-git push -u origin main
+git add screenshots README.md
+git commit -m "Add screenshots and improve README UI"
+git push
